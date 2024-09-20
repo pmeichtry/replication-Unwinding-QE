@@ -9,7 +9,7 @@ For any questions or comments, please contact pascal.meichtry@banque-france.fr.
 
 # Structure
 **codes**: codes to run the model simulations and create figures and tables
-* main_replication.m: master file to replicate the main results
+* **main_replication.m**: master file to replicate the main results
 * **\functions**: auxiliary functions
 * **\dynareOBC**: dynareOBC toolbox ([dynareOBC GitHub repository](https://github.com/tholden/dynareOBC/releases))
 
@@ -18,4 +18,4 @@ For any questions or comments, please contact pascal.meichtry@banque-france.fr.
 **outputs**: Stored figures and table
 
 
-See **README.pdf** contained in the package for more details on the replication.
+See **[README.pdf](README.pdf)** contained in the package for more details on the replication.
