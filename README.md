@@ -1,13 +1,15 @@
 # Unwinding Quantitative Easing: Replication package
 
-Replication files for the main results of Cantore, C. & Meichtry, P. (2024). Unwinding quantitative easing: State dependency and household heterogeneity. _European Economic Review, 170_, 104865.
-[[Published article]](https://www.sciencedirect.com/science/article/abs/pii/S0014292124001946)  [[Online Appendix]](https://pmeichtry.github.io/Papers/UnwindingQE_CantoreMeichtry_OnlineAppendix.pdf)
+Replication files for the main results of Cantore, C. & Meichtry, P. (2024). Unwinding quantitative easing: State dependency and household heterogeneity. _European Economic Review, 170_, 104865.\
+[[Published article](https://www.sciencedirect.com/science/article/abs/pii/S0014292124001946)]  [[Online Appendix](https://pmeichtry.github.io/Papers/UnwindingQE_CantoreMeichtry_OnlineAppendix.pdf)]
 
 MATLAB and Dynare codes for New Keynesian model with borrowers and savers, short-term and long-term bonds, and a zero lower bound on nominal interest rates.
 
+For any questions or comments, please contact pascal.meichtry@banque-france.fr.
+
 # Structure
 **codes**: codes to run the model simulations and create figures and tables
-* main_replication.m: master file to replicate all main results
+* main_replication.m: master file to replicate the main results
 * \functions: auxiliary functions
 * \dynareOBC: dynareOBC toolbox ([dynareOBC GitHub repository](https://github.com/tholden/dynareOBC/releases))
 
@@ -17,5 +19,3 @@ MATLAB and Dynare codes for New Keynesian model with borrowers and savers, short
 
 
 See **README.pdf** contained in the package for more details on the replication.
-
-For any questions or comments, please contact pascal.meichtry@banque-france.fr.
