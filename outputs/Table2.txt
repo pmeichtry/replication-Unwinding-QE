@@ -1,0 +1,5 @@
+Model_multiplier	Y_QE	Y_QT	PIE_QE	PIE_QT	C_QE	C_QT
+TANK-BS (impact)    	1.29	-0.42	0.71	-0.24	1.61	-0.53
+TANK-BS (cumulative)	2.32	-0.71	1.14	-0.43	2.9	-0.89
+RANK (impact)    	1.05	-0.44	0.7	-0.32	1.32	-0.56
+RANK (cumulative)	2.18	-0.86	1.32	-0.67	2.72	-1.08

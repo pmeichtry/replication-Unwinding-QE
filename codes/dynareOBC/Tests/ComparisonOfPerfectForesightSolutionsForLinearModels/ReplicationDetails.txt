@@ -1,0 +1,6 @@
+Run the script `RunAllAndCompare`.
+
+It produces two graphs.
+
+The first is the difference between DynareOBC and the Extended Path.
+The second is the difference between DynareOBC and the OccBin algorithm.
