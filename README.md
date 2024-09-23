@@ -1,7 +1,7 @@
 # Unwinding Quantitative Easing: Replication package
 
 Replication files for the main results of Cantore, C. & Meichtry, P. (2024). Unwinding quantitative easing: State dependency and household heterogeneity. _European Economic Review, 170_, 104865.\
-[[Published article](https://www.sciencedirect.com/science/article/abs/pii/S0014292124001946)] &nbsp; [[Complete version (ungated)](https://pmeichtry.github.io/Papers/UnwindingQE_CantoreMeichtry_paper.pdf)] &nbsp; [[Online Appendix](https://pmeichtry.github.io/Papers/UnwindingQE_CantoreMeichtry_OnlineAppendix.pdf)]
+[[Published article](https://www.sciencedirect.com/science/article/abs/pii/S0014292124001946)] &nbsp; [[Online Appendix](https://pmeichtry.github.io/Papers/UnwindingQE_CantoreMeichtry_OnlineAppendix.pdf)] &nbsp; [[Ungated version (paper+appendix)](https://pmeichtry.github.io/Papers/UnwindingQE_CantoreMeichtry_paper.pdf)]
 
 MATLAB and Dynare codes for New Keynesian model with borrowers and savers, short-term and long-term bonds, and a zero lower bound on nominal interest rates.
 
