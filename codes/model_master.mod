@@ -79,7 +79,7 @@ varexo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 parameters 
    betta          ${\beta^S}$             (long_name='Discount factor, Savers')
-   bettaH         ${\beta^H}$             (long_name='Discount factor, Borrowers')
+   bettaB         ${\beta^B}$             (long_name='Discount factor, Borrowers')
    sigma_c        ${\sigma}$              (long_name='Intertemporal elasticity of substitution')
    varphi         ${\varphi}$             (long_name='Inverse of Frisch elasticity of labor supply')
    //psi_p          ${\psi_p}$              (long_name='Rotemberg price adjustment cost')
@@ -91,7 +91,7 @@ parameters
    phi_pie        ${\phi_{\pi}}$          (long_name='Taylor rule coefficient on inflation')
    rho_r          ${\rho_{r}}$            (long_name='Interest rate smoothing')
    zetaS          ${\zeta^S}$             (long_name='Weight on hours in utility, Savers')
-   zetaH          ${\zeta^H}$             (long_name='Weight on hours in utility, Borrowers')
+   zetaB          ${\zeta^B}$             (long_name='Weight on hours in utility, Borrowers')
    lambda         ${\lambda}$             (long_name='Share of Borrowers')
    tauD           ${\tau^D}$              (long_name='Tax on profits')
    tauS           ${\tau^S}$              (long_name='Production subsidy')
@@ -120,7 +120,7 @@ parameters
 load param_values;
 
 set_param_value('betta',betta);
-set_param_value('bettaH',bettaH);
+set_param_value('bettaB',bettaB);
 set_param_value('rho_Z',rho_Z);
 set_param_value('rho_G',rho_G);
 set_param_value('rho_A',rho_A);
@@ -177,7 +177,7 @@ UCS*(1-(delta*nu*BS/BHLS^2*(delta*BS/BHLS-1)))=betta*RL*UCS(+1);
 [name='Marginal Utility of Consumption, Borrowers']
 UCB=A*(CB)^(-1/sigma_c);
 [name='Marginal Utility of Leisure, Borrowers']
-UNB=-A*zetaH*NB^varphi;
+UNB=-A*zetaB*NB^varphi;
 [name='Labor Supply, Borrowers']
 W=-UNB/UCB;
 
@@ -187,9 +187,9 @@ CB+BB+BHLB=R(-1)*BB(-1)+RL(-1)*BHLB(-1)+W*NB+tauD/lambda*profits-T+tr/lambda-nu/
 BB+BHLB=-Dbar;  %0=min(PSI, BB+BHLB+Dbar);
 
 [name='Euler Equation short term bonds, Borrowers']
-UCB*(1+delta*nu/BHLB*(delta*BB/BHLB-1))=bettaH*R*UCB(+1)+PSI;
+UCB*(1+delta*nu/BHLB*(delta*BB/BHLB-1))=bettaB*R*UCB(+1)+PSI;
 [name='Euler Equation long term bonds, Borrowers']
-UCB*(1-(delta*nu*BB/BHLB^2*(delta*BB/BHLB-1)))=bettaH*RL*UCB(+1)+PSI;
+UCB*(1-(delta*nu*BB/BHLB^2*(delta*BB/BHLB-1)))=bettaB*RL*UCB(+1)+PSI;
 
 
 %% Government & Monetary Policy

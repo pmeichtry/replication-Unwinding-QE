@@ -68,7 +68,7 @@ for m = 1:length(spec.modelNames)
     else
         betta  	= 0.99;
     end
-    bettaH      = 0.95;    	%Discount factor, Borrowers
+    bettaB      = 0.95;    	%Discount factor, Borrowers
     Dbar        = 0.5;      %Borrowing limit (defined as D/Y)
 
     rho_A       = 0.8;     	%AR coeff preference shock
@@ -111,7 +111,7 @@ for m = 1:length(spec.modelNames)
     weight_Ashock  = 0.42;  %relative size pref shock
 
 
-    save param_values lambda sigma_c varphi betta bettaH Dbar rho_A ...
+    save param_values lambda sigma_c varphi betta bettaB Dbar rho_A ...
         eepsil tauD price_duration tauS rho_Z ...
         rho_G rho_tauT rho_tauT_B rho_tauT_G ...
         phi_pie rho_r qbar rho_q rho_BL ...

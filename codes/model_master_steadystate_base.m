@@ -79,12 +79,12 @@ CS=C;
 UCB=A*(CB)^(-1/sigma_c);
 UCS=A*(CS)^(-1/sigma_c);
 
-zetaH=(UCB)*(W)/(A*NB^varphi);
-UNB=-A*zetaH*NB^varphi;
+zetaB=(UCB)*(W)/(A*NB^varphi);
+UNB=-A*zetaB*NB^varphi;
 zetaS=(UCS)*(W)/(A*NS^varphi);
 UNS=-A*zetaS*NS^varphi;
 
-PSI=UCB*(1-bettaH/betta);
+PSI=UCB*(1-bettaB/betta);
 tr=lambda*(CB+(1-R)*BB+(1-RL)*BHLB-W*NB-tauD/lambda*profits+T);
 
 Y_obs=log(Y);
